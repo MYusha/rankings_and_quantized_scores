@@ -1,0 +1,27 @@
+*__pycache__*
+*.vscode*
+*.swp*
+.DS_Store
+*.txt
+*.npz
+imgs/
+# !somefolder/.gitkeep 
+results/*
+!results/results_saved_in_this_folder.txt
+# !somefolder/.gitkeep
+peerread_data/*
+!peerread_data/put_peerread_data_here.txt
+!peerread_models
+peerread_models/*
+!peerread_models/put_peerread_models_here.txt
+test_scripts/
+src/thurstone_mle.py
+src/exp_dequantize_scores.py
+src/exp_dequantize_scores_iclr.py
+src/exp_regularized_mle.py
+src/regularized_mle.py
+src/exp_borda_breakties.py
+src/borda_breakties.py
+# *.txt
+# .gitignore
+
